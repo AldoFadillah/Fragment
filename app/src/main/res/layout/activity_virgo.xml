@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".virgoActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/plumbath"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="11dp"
+            android:background="#fff"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/virgo"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VIRGO"
+            android:textSize="23sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Tanpa diketahui ayahnya, Rini mempelajari eksperimen ilmiahnya. Suatu hari Rini memutuskan untuk menggunakan tubuhnya sendiri sebagai percobaan manusia pertama. Ketika dia menyadari bahwa dia memiliki kekuatan manusia super, Rini menjadi pejuang kejahatan, Virgo.\n"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nReal Name: Rini\n
+
+\nHeight: 173 cm\n
+
+\nWeight: 68\n
+
+\nAbilities/Powers: Bisa menghasilkan api yang membakar dari jari-jarinya.\n
+
+\nAllies: GUNDALA\n
+
+\nCreator(s): JAN MINTARAGA\n"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"></TextView>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

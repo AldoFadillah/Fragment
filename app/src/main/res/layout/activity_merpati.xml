@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".merpatiActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/plumbath"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="11dp"
+                android:background="#fff"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="2dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/merpati"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MERPATI"
+                android:textSize="23sp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Sedhah adalah jurnalis yang cerdas dan tegas dan belajar seni bela diri untuk mempersiapkannya menghadapi apa pun. Dia suatu hari jatuh dari tebing mencoba untuk membantu ayahnya, hanya untuk diselamatkan oleh sepotong burung merpati yang membawanya di depan Ratu Merpati. Ketika Ratu Merpati memerintahkan Sedhah untuk menenggelamkan dirinya ke ramuan ajaib, dia menjadi Merpati, seorang pahlawan super yang ditugaskan untuk melawan ketidakadilan. Merpati kemudian dikenal sebagai bunga cinta Gundala.\n"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nReal Name: Sedhah Esti Wulan\n
+
+\nHeight: 167 cm\n
+
+\nWeight: 59 kg\n
+
+\nAbilities/Powers: Memiliki kekuatan terbang dan manusia super navigasi. Memiliki kekuatan manusia super sama dengan 20 pria dewasa.\n
+
+\nAllies: GUNDALA, GODAM, AQUANUS, MAZA, TIRA\n
+
+\nEnemies: GHAZUL, PENGKOR\n
+
+\nCreator(s): HASMI\n"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

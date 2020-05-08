@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".klasikbutaActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/plumbath"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="11dp"
+            android:background="#fff"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sibutadariguahantu"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SI BUTA DARI GUA HANTU"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="SIBUTA DARI GUA HANTU (Tunanetra dari Gua Hantu), adalah komik pertama yang dirilis pada awal Desember 1967. Komik ini, juga, menjadi penampilan pertama dari karakter kejam yang dijuluki 'MATA MALAIKAT' yang telah membunuh Paksi Sakti Indalagiara (ayah dari Bardamandrawata).\n"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Series : SI BUTA DARI GUA HANTU\n
+
+\nStory : GANES TH\n
+
+\nIlustrator : GANES TH\n
+
+\nColoring : GANES TH\n
+
+\nCover Art : GANES TH\n"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"></TextView>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

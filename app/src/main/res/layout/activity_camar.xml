@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".camarActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/plumbath"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="11dp"
+                android:background="#fff"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="2dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/camar"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CAMAR"
+                android:textSize="23sp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Pada tahun 1910, di pantai sebuah pulau Maluku, seorang prajurit desa melarikan diri dengan seorang gadis Belanda melarikan diri dari pengejaran tentara Belanda. Prajurit menciptakan keterampilan seni bela diri yang unik yang disebut Camar dan melatih keturunannya untuk berperang melawan koloni Belanda. Keturunan bungsunya, Motila, adalah yang paling berbakat di antara mereka semua dan menjadi pahlawan super, Camar, yang melanjutkan warisan keluarganya dalam memerangi ketidakadilan.\n"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nReal Name: Motila\n
+
+\nHeight: 173 cm\n
+
+\nWeight: 59 kg\n
+
+\nAbilities/Powers: Memiliki kemampuan berkomunikasi dengan burung. Ahli dalam seni bela diri serta memiliki kemampuan melompat yang luar biasa.\n
+
+\nCreator(s): WID NS\n"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

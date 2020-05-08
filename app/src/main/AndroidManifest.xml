@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fragment">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".vbocahatlantisActivity"></activity>
+        <activity android:name=".vdrsyaithonActivity" />
+        <activity android:name=".vpengkorActivity" />
+        <activity android:name=".vghazulActivity" />
+        <activity android:name=".vbanyujagaActivity" />
+        <activity android:name=".vsapujagatActivity" />
+        <activity android:name=".vleakhitamActivity" />
+        <activity android:name=".vserulingsukmaActivity" />
+        <activity android:name=".vmatamalaikatActivity" />
+        <activity android:name=".godamActivity" />
+        <activity android:name=".matamalaikat2Activity" />
+        <activity android:name=".matamalaikatActivity" />
+        <activity android:name=".newerabutaActivity" />
+        <activity android:name=".gundalakomaActivity" />
+        <activity android:name=".praharaActivity" />
+        <activity android:name=".camarActivity" />
+        <activity android:name=".selendangmActivity" />
+        <activity android:name=".bmeActivity" />
+        <activity android:name=".merpatiActivity" />
+        <activity android:name=".virgoActivity" />
+        <activity android:name=".sriasih2Activity" />
+        <activity android:name=".marniActivity" />
+        <activity android:name=".sitigaharaActivity" />
+        <activity android:name=".tiraActivity" />
+        <activity android:name=".kaumterorisActivity" />
+        <activity android:name=".ggadunganActivity" />
+        <activity android:name=".drsetanActivity" />
+        <activity android:name=".bdpsActivity" />
+        <activity android:name=".mborobudurActivity" />
+        <activity android:name=".klasikbutaActivity" />
+        <activity android:name=".gundalajwActivity" />
+        <activity android:name=".gundalaspActivity" />
+        <activity android:name=".GundalappActivity" />
+        <activity android:name=".patriotActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

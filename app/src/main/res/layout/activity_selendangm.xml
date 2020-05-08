@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".selendangmActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/plumbath"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="11dp"
+                android:background="#fff"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="2dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/selendangmayang"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SELENDANG MAYANG"
+                android:textSize="23sp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Selendang Mayang adalah murid dari Prajurit Satu-Bersenjata, Setiatun. Selendang Mayang patah hati ketika dia mengetahui bahwa kakak laki-lakinya memilih kekayaan duniawi daripada cintanya. Si Buta dari Gua Hantu menyelamatkannya ketika dia mencoba bunuh diri.\n"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nReal Name: Selendang Mayang\n
+
+\nHeight: 162 cm\n
+
+\nWeight: 58 kg\n
+
+\nAbilities/Powers: Menguasai keterampilan selendang (selendang panjang) serta dalam seni bela diri (Udan Kembang / Hujan Bunga).\n
+
+            \nAllies: SI BUTA DARI GUA HANTU\n
+
+            \nEnemies: SERULING SUKMA\n
+
+            \nCreator(s): GANES TH\n"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

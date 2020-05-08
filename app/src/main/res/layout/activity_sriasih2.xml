@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sriasih2Activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/plumbath"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="11dp"
+                android:background="#fff"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="2dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sriasih"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SRI ASIH"
+                android:textSize="23sp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Nani Wijaya, lahir dari keluarga kaya, adalah reinkarnasi seorang dewi, Dewi Sri. Bekerja untuk Biro Investigasi Kriminal, Nani membangun reputasinya setiap hari sebagai pejuang kejahatan yang tak kenal takut. Namun, ketika semuanya menjadi tidak terkendali, Nani mengubah dirinya menjadi Sri Asih dengan mengatakan (Dewi Asih!)\n"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nReal Name: Nani Wijaya\n
+
+\nHeight: 172 cm\n
+
+\nWeight: 58 kg\n
+
+\nAbilities/Powers: Memiliki kekuatan manusia super yang identik dengan 250 orang, keterampilan bertarung jarak dekat dan kemampuan terbang. Kekuatan pamungkasnya, namun jarang digunakan, adalah kemampuan untuk meningkatkan ukuran tubuhnya menjadi raksasa yang dapat berkembang biak.\n
+
+\nAllies: SITI GAHARA, GUNDALA, GODAM, NUSANTARA, VIRGO, TIRA\n
+
+\nEnemies: BOCAH ATLANTIS, DOKTOR SETAN, GHAZUL, KANCU RAPETHUK, KELELAWAR HITAM, KI WILAWUK, LEAK HITAM, MATA MALAIKAT, PENGKOR, SERULING SUKMA, XREPHUS\n
+
+\nFirst Appearance: SRI ASIH\n
+
+\nCreator(s): RA KOSASIH\n"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

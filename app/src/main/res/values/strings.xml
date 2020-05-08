@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="true">Komik Klasik Indonesia</string>
+    <string name="tab_text_1" translatable="false">Klasik</string>
+    <string name="tab_text_2" translatable="true">Era Baru</string>
+    <string name="tab_text_3" translatable="true">Penjahat</string>
+    <string name="tab_text_4" translatable="true">Wanita BL</string>
+</resources>

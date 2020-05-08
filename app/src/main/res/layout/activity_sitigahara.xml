@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sitigaharaActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/plumbath"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="11dp"
+            android:background="#fff"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="2dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="190dp"
+                    android:layout_height="250dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/sitigahara"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SITI GAHARA"
+            android:textSize="23sp"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="Seorang pemudi, Maksum, secara tidak sengaja membebaskan Siti Gahara dari tawanannya. Siti Gahara adalah putri Raja Jin dari Kerajaan Euprata dekat Gunung Ararat. Dia dihukum oleh ayahnya karena keengganannya terhadap proposal pernikahan.\n"
+            android:textSize="15sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nReal Name: Siti Gahara\n
+
+\nHeight: 172 cm\n
+
+\nWeight: 63 kg\n
+
+\nAbilities/Powers: Memiliki kekuatan magis dan keterampilan terbang. Dia bisa memanggil pasukan roh mistis serta membangun istana dengan sihirnya. Siti juga ahli dalam pertempuran pedang.\n
+
+\nCreator(s): RA KOSASIH\n"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF"></TextView>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

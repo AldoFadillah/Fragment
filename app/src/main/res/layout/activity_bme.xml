@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bmeActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/plumbath"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="11dp"
+                android:background="#fff"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="2dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="190dp"
+                        android:layout_height="250dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/bme"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BIDADARI MATA ELANG"
+                android:textSize="23sp"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="Dewi, yang dikenal sebagai Bidadari Mata Elang, adalah cucu Nyi Inggit (Ular Sembilan). Dia adalah seorang prajurit wanita yang sangat menarik dan menggoda, namun sombong. Dalam perjalanannya di dunia seni bela diri, Dewi dikenal oportunistik dan tidak pernah memihak.\n"
+                android:textSize="15sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\nReal Name: Purnama Wulan Dewi Sartikawati\n
+
+\nHeight: 170 cm\n
+
+\nWeight: 59 kg\n
+
+\nAbilities/Powers: Ahli dalam keterampilan bela diri, khususnya dalam menggunakan cambuk rantai dengan pisau tajam di ujungnya.\n
+
+\nAllies: MANDALA\n"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"></TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

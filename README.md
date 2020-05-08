@@ -1,2 +1,2 @@
 # Fragment
-latihan fragment
+fragment di android studio
